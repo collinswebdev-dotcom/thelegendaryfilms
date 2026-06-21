@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services | thelegendaryfilms</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <a href="index.html" class="logo">the<span>legendary</span><span class="gold-dot">•</span>films</a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+    </button>
+    <nav id="mainNav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html" class="active">Services</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="testimonials.html">Testimonials</a>
+        <a href="contact.html" class="btn-nav">Contact</a>
+    </nav>
+</header>
+
+<section class="section section-dark">
+    <div class="container">
+        <div class="section-header">
+            <h2>What We <span class="highlight">Deliver</span></h2>
+            <p>Every project is a story. We make sure it's unforgettable.</p>
+        </div>
+        <div class="services-grid">
+            <div class="service-card">
+                <span class="icon">💒</span>
+                <h3>Weddings</h3>
+                <p>Cinematic wedding films that capture the emotion, the joy, and the sacred moments of your big day — from the first look to the last dance.</p>
+            </div>
+            <div class="service-card">
+                <span class="icon">🎥</span>
+                <h3>Documentaries</h3>
+                <p>Powerful, authentic storytelling. We bring depth and truth to every frame — from social impact films to personal journeys.</p>
+            </div>
+            <div class="service-card">
+                <span class="icon">🏢</span>
+                <h3>Corporate Films</h3>
+                <p>Brand stories, product launches, and executive interviews — produced with precision and professionalism to elevate your brand.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <p>🎬 No. 32 Emir Road, Sabongari, Kano State, Nigeria</p>
+    <p style="font-size: 0.85rem; color: #444;">© 2026 thelegendaryfilms. All rights reserved.</p>
+    <div class="dev-credit">Site by <a href="#">Mac-Collins Ukwuoma</a> · Graphic Realities</div>
+</footer>
+
+<script>
+    const toggle = document.getElementById('menuToggle');
+    const nav = document.getElementById('mainNav');
+    toggle.addEventListener('click', () => {
+        toggle.classList.toggle('active');
+        nav.classList.toggle('open');
+    });
+</script>
+
+</body>
+</html>
