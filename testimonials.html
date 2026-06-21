@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testimonials | thelegendaryfilms</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <a href="index.html" class="logo">the<span>legendary</span>films</a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+    </button>
+    <nav id="mainNav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="testimonials.html" class="active">Testimonials</a>
+        <a href="contact.html" class="btn-nav">Contact</a>
+    </nav>
+</header>
+
+<section class="section section-dark">
+    <div class="container">
+        <div class="section-header">
+            <h2>What Our <span>Clients Say</span></h2>
+            <p>Real words from real people we've had the privilege to serve.</p>
+        </div>
+        <div class="testimonial-grid">
+            <div class="testimonial-card">
+                <div class="quote">They captured our wedding in a way we didn't think possible. Every emotion, every laugh, every tear — it's all there. We watch it over and over.</div>
+                <div class="author">— Chidi & Ngozi</div>
+                <div class="role">Wedding, Kano</div>
+            </div>
+            <div class="testimonial-card">
+                <div class="quote">We commissioned a documentary on our community project. What they delivered was beyond our expectations — deeply moving, professionally crafted, and authentic.</div>
+                <div class="author">— Dr. Fatima</div>
+                <div class="role">Documentary, Abuja</div>
+            </div>
+            <div class="testimonial-card">
+                <div class="quote">Our corporate brand film was a game-changer. The team understood our vision perfectly and brought it to life with stunning cinematography.</div>
+                <div class="author">— Mr. Adebayo</div>
+                <div class="role">Corporate Film, Lagos</div>
+            </div>
+            <div class="testimonial-card">
+                <div class="quote">From the first meeting to the final delivery, everything was handled with professionalism and care. They made us feel like family.</div>
+                <div class="author">— Hassan & Aisha</div>
+                <div class="role">Wedding, Kano</div>
+            </div>
+            <div class="testimonial-card">
+                <div class="quote">We needed a documentary that would move people to action. thelegendaryfilms delivered something that brought our donors to tears.</div>
+                <div class="author">— Pastor Samuel</div>
+                <div class="role">Documentary, Jos</div>
+            </div>
+            <div class="testimonial-card">
+                <div class="quote">The best investment we made for our brand. The quality, the storytelling, the professionalism — top-notch.</div>
+                <div class="author">— Zainab</div>
+                <div class="role">Corporate Film, Kano</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <p>🎬 No. 32 Emir Road, Sabongari, Kano State, Nigeria</p>
+    <p style="font-size: 0.85rem; color: #1a3a5a;">© 2026 thelegendaryfilms. All rights reserved.</p>
+    <div class="dev-credit">Site by <a href="#">Mac-Collins Ukwuoma</a> · Graphic Realities</div>
+</footer>
+
+<script>
+    const toggle = document.getElementById('menuToggle');
+    const nav = document.getElementById('mainNav');
+    toggle.addEventListener('click', () => {
+        toggle.classList.toggle('active');
+        nav.classList.toggle('open');
+    });
+</script>
+
+</body>
+</html>
