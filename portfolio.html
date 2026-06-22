@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | thelegendaryfilms</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <a href="index.html" class="logo">
+        <img src="logo.jpg" alt="thelegendaryfilms Logo" style="height: 50px; width: auto; display: block;">
+        <span class="logo-text">the<span>legendary</span><span class="gold-dot">•</span>films</span>
+    </a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+    </button>
+    <nav id="mainNav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="portfolio.html" class="active">Portfolio</a>
+        <a href="testimonials.html">Testimonials</a>
+        <a href="contact.html" class="btn-nav">Contact</a>
+    </nav>
+</header>
+
+<section class="section section-dark">
+    <div class="container">
+        <div class="section-header">
+            <h2>Our <span class="highlight">Work</span></h2>
+            <p>Every frame tells a story. Here are some of our favorites.</p>
+        </div>
+        <div class="portfolio-grid">
+            <div class="portfolio-item">
+                <video src="the creative director of thelegendaryfilms.mp4" controls autoplay loop playsinline style="width:100%;height:100%;object-fit:cover;"></video>
+                <div class="overlay"><h4>Creative Director</h4><p>The vision behind the lens</p></div>
+            </div>
+            <div class="portfolio-item">
+                <video src="behind the scenes.mp4" controls autoplay loop playsinline style="width:100%;height:100%;object-fit:cover;"></video>
+                <div class="overlay"><h4>Behind the Scenes</h4><p>Crafting the magic</p></div>
+            </div>
+            <div class="portfolio-item">
+                <video src="wedding shoot.mp4" controls autoplay loop playsinline style="width:100%;height:100%;object-fit:cover;"></video>
+                <div class="overlay"><h4>Wedding Shoot</h4><p>Capturing love in motion</p></div>
+            </div>
+            <div class="portfolio-item">
+                <video src="celebrating africa - advertisement.mp4" controls autoplay loop playsinline style="width:100%;height:100%;object-fit:cover;"></video>
+                <div class="overlay"><h4>Celebrating Africa</h4><p>Ad campaign</p></div>
+            </div>
+            <div class="portfolio-item">
+                <video src="Exquisite wedding coverage.mp4" controls autoplay loop playsinline style="width:100%;height:100%;object-fit:cover;"></video>
+                <div class="overlay"><h4>Exquisite Wedding</h4><p>Full coverage</p></div>
+            </div>
+            <div class="portfolio-item">
+                <video src="celebrating love.mp4" controls autoplay loop playsinline style="width:100%;height:100%;object-fit:cover;"></video>
+                <div class="overlay"><h4>Celebrating Love</h4><p>Romantic moments</p></div>
+            </div>
+            <div class="portfolio-item">
+                <video src="celebrating beauty and style.mp4" controls autoplay loop playsinline style="width:100%;height:100%;object-fit:cover;"></video>
+                <div class="overlay"><h4>Celebrating Beauty</h4><p>Style & elegance</p></div>
+            </div>
+            <div class="portfolio-item">
+                <video src="Exquisite wedding shoot.mp4" controls autoplay loop playsinline style="width:100%;height:100%;object-fit:cover;"></video>
+                <div class="overlay"><h4>Exquisite Wedding Shoot</h4><p>Premium coverage</p></div>
+            </div>
+            <div class="portfolio-item">
+                <video src="celebrating women's day.mp4" controls autoplay loop playsinline style="width:100%;height:100%;object-fit:cover;"></video>
+                <div class="overlay"><h4>Women's Day</h4><p>Celebrating women</p></div>
+            </div>
+            <div class="portfolio-item">
+                <video src="celebrating feminism.mp4" controls autoplay loop playsinline style="width:100%;height:100%;object-fit:cover;"></video>
+                <div class="overlay"><h4>Celebrating Feminism</h4><p>Empowerment</p></div>
+            </div>
+            <div class="portfolio-item">
+                <video src="romantic wedding shoot.mp4" controls autoplay loop playsinline style="width:100%;height:100%;object-fit:cover;"></video>
+                <div class="overlay"><h4>Romantic Wedding</h4><p>Love in every frame</p></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <p>🎬 No. 32 Emir Road, Sabongari, Kano State, Nigeria</p>
+    <p style="font-size: 0.85rem; color: #444;">© 2026 thelegendaryfilms. All rights reserved.</p>
+    <div class="dev-credit">Site by <a href="#">Mac-Collins Ukwuoma</a> · Graphic Realities</div>
+</footer>
+
+<script>
+    const toggle = document.getElementById('menuToggle');
+    const nav = document.getElementById('mainNav');
+    toggle.addEventListener('click', () => {
+        toggle.classList.toggle('active');
+        nav.classList.toggle('open');
+    });
+</script>
+
+</body>
+</html>
